@@ -1,0 +1,80 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    text-align: center;
+    padding: 50px;
+    background: #ffe082;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffeb3d;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+header .logo{
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffeb3d;
+    padding: 10px;
+    
+
+}
+nav .nav-links a {
+    margin:0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav .brand{
+    font-weight: bold;
+    color:#333;
+    text-decoration: none;
+    
+}
+.puppy-card{
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.puppy-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+button[type="submit"],
+button{
+    background-color: #ffeb3d;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
